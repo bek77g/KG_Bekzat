@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="top-menu-space"></div>
+
+    <label class="not-visible" for="close-menu">Close Menu</label>
+    <input
+      class="close-menu"
+      type="checkbox"
+      id="close-menu"
+      role="button"
+      aria-label="Close Menu"
+    />
+
+    <aside class="menu">
+      <div>
+        <h1 class="logo">
+          <a
+            onclick="getElementById('close-menu').checked = false;"
+            href="#home"
+            >Культура Кыргызстана</a
+          >
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li>
+              <a href="#intro">Гимн</a>
+            </li>
+            <li>
+              <a href="#top-3">Эпос «Манас»</a>
+            </li>
+            <li>
+              <a href="#gallery">Галлерея</a>
+            </li>
+            <li>
+              <a href="#latest-work">Юрты</a>
+            </li>
+            <li>
+              <a href="#footer">Музеи</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <section class="section primary-background bg-svg-1">
+      <div id="home"></div>
+      <header id="main-header" class="main-header section-content">
+        <div class="main-header-content">
+          <h2>Культура Кыргызстана</h2>
+          <p>
+            Культура Кыргызстана формировалась под сильным воздействием кочевой жизни. Кроме того, на неё оказали влияние культуры России, Персии и Турции, и все же она осталась довольно самобытной и уникальной. Связь кыргызской культуры с природой прослеживается везде: от дизайна до музыки. Одним из самых известных примеров кыргызской культуры является эпос «Манас» - невероятно длинное стихотворение, которое передавалось устно от одного поколения к другому. 
+          </p>
+        </div>
+
+        <img class="main-header-logo" src="https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture.jpg" alt="">
+      </header>
+    </section>
+
+    <div id="intro" class="section white-background">
+      <div class="section-content">
+        <div class="text-container">
+          <article>
+            <h2>Национальный гимн</h2> 
+            <p>
+              Высокие горы, долины, поля —
+Родная, заветная наша земля.
+Отцы наши жили среди Ала-Тоо,
+Всегда свою родину свято храня.
+            </p>
+            <p>
+                <b>Припев:</b>
+              Вперёд, киргизский народ,
+Путем свободы вперёд!
+Взрастай, народ, расцветай,
+Свою судьбу созидай!
+            </p>
+            <p>
+              Извечно народ наш для дружбы открыт,
+Единство и дружбу он в сердце хранит.
+Земля Киргизстана, родная страна
+Лучами согласия озарена.
+            </p>
+            <p>Припев:</p>
+            <p>Мечты и надежды отцов сбылись.
+И знамя свободы возносится ввысь.
+Наследье отцов наших передадим,
+На благо народа потомкам своим.</p>
+            <p>Припев:</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <section id="top-3" class="section primary-background bg-svg-1">
+      <div class="section-content portfolio">
+        <div class="full-height">
+          <header class="section-header">
+            <h2>Кыргызский эпос «Манас»</h2>
+          </header>
+
+          <div class="grid-section">
+            <article>
+              <p>
+                Эпос «Манас» является самым знаменитым образцом культуры Кыргызстана и (возможно) самой длинной эпической поэмой в мире. В 20 раз длиннее Одиссеи, эта эпопея повествует о жизни воина Манаса, а также о приключениях его сына и внука.
+              </p>
+            </article>
+            <article>
+              <p>
+                Эту историю из поколения в поколение хранили и пересказывали специальные люди, сказители эпоса – манасчи (манасчы). Эпос был записан в 1800-х годах, первую полную версию опубликовали в 1920-х годах.
+              </p>
+            </article>
+            <article>
+              <p>
+                 «Манас» был переведен на множество языков, публиковался в Советском Союзе и за рубежом.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section white-background">
+      <div class="section-content portfolio">
+        <div class="full-height">
+          <header class="section-header">
+            <h2>Галлерея</h2>
+            <p>Достопримечательности и природа Кыргызстана</p>
+          </header>
+
+          <div class="grid-section">
+            <div class="gallery-images">
+              <img
+                src="https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture-monuments.jpg"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture-costumes.jpg"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture-yurts.jpg"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture-textile.jpg"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture-music.jpg"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture-literature.jpg"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fca%2F30%2F54%2Fca30541ad167cfe5857a0a7924ac3b3c.jpg&f=1&nofb=1"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.U_SMab4-BsffhtL9JytBXAHaGd%26pid%3DApi&f=1"
+                alt="Random Image"
+              />
+            </div>
+            <div class="gallery-images">
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F46%2Fbd%2F55%2F46bd559725f291ae3466d5f51aa2dd99.jpg&f=1&nofb=1"
+                alt="Random Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="latest-work" class="section primary-background bg-svg-1">
+      <div class="section-content portfolio">
+        <div class="full-height">
+          <h2>Кыргызские юрты</h2>
+
+          <div class="grid-section">
+            <article>
+              <p>
+               Юрты - одна из важнейших частей кыргызской культуры, и это больше, чем просто дома. Они символизируют семью, землю и вселенную и покрывают все этапы жизни от рождения до смерти. С юртами связана большая часть кыргызской культуры, от важных ритуалов и церемоний, до ремесленничества и традиционного мастерства. 
+              </p>
+            </article>
+            <article>
+              <p>
+                Кыргызские юрты сделаны из куполообразных березовых ветвей, привязанных к решетке, которая образует вертикальные стены. Наружная сторона сделана из войлока и шерсти – теплых водоотталкивающих материалов, которые легко чинятся. Решетчатый круг в центре купола юрты образует один из важнейших символов семьи и Вселенной - тундюк.
+              </p>
+            </article>
+            <div>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dO80GlJ43yFe0yd84VKvNgHaE8%26pid%3DApi&f=1" alt="">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.8JaFWwNGWMas28dDpVPfrAHaEx%26pid%3DApi&f=1" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="pricing" class="section white-background">
+      <div class="section-content">
+        <div class="text-container">
+          <article>
+            <h2>Кыргызская музыка</h2>
+
+            <p>
+             Кыргызская музыка примечательна тем, что повествует о природе и жизни в горах. Тексты многих песен рассказывают о буднях кочевников, и даже в композициях, где нет слов, тонко передано соответствующее настроение. В Кыргызстане есть множество музыкальных инструментов
+            </p>
+
+            <div class="responsive-table">
+              <ul>
+                  <li>Наиболее знаковым является комуз, трехструнный инструмент, напоминающий небольшую гитару</li>
+                  <li>Кыл-кыяк (кыяк) – струнный инструмент со смычком. Его изготавливают из тех же пород дерева, что и камуз. Инструмент имеет две струны и смычок – джаа. У кыяка форма ковша, с открытой верхней половиной, а нижняя обтянута верблюжьей кожей.</li>
+                  <li>Темир-комуз - щипковый язычковый музыкальный инструмент.</li>
+                  <li>Чопо-чоор (глиняный «чор») – древний духовой инструмент. Исполнитель держит инструмент у рта, пальцами перебирая отверстия, расположенные по длине чопо-чоор. Тембр инструмента глубокий и ясный в низких звуках несколько гнусавый.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div id="intro" class="section white-background">
+      <div class="section-content">
+        <div class="text-container">
+          <article>
+            <h2>Кыргызская одежда</h2> 
+            <img src="https://triptokyrgyzstan.com/sites/default/files/media/image/img_7083.jpg" alt="">
+            <p>В кыргызской одежде отражен кочевой образ жизни, видны особенности различных регионов. Превалируют натуральные материалы: шерсть, войлок, кожа, грубые ткани. В дизайне используются орнаменты и темы, вдохновленные природой и племенными традициями. Сегодня в Кыргызстане носят современную западную одежду, но и в ней присутствуют традиционные элементы, которыми кыргызы очень гордятся.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="footer bg-svg-1">
+      <div class=" section-content">
+        <section class="main-header-content">
+          <h2>Кыргызские музеи</h2>
+          <p>
+            В Кыргызстан обычно едут не ради посещения музеев, но всё же экспозиции кыргызских музеев довольно интересны и информативны. Самыми крупными и известными музеями Кыргызстана являются Государственный исторический музей и Музей изящных искусств в Бишкеке, но поездка в Бишкек будет неполной без посещения Дома-музея Фрунзе – прекрасно сохранившийся дом советского революционера. Ошский государственный историко-археологический музей демонстрирует единственный в Кыргызстане объект, входящий в список Всемирного наследия ЮНЕСКО. Дом-музей Пржевальского в Караколе - дань уважения знаменитому исследователю, одному из первых, кто изучил этот район. Рядом с башней Бурана находится археологический музей, где посетители могут узнать больше о древней истории Кыргызстана.
+          </p>
+        </section>
+    <a
+      class="back-to-top"
+      role="button"
+      aria-label="Back to top"
+      title="Back to top"
+      href="#home"
+    ></a>
+    <!-- Created by Jeenkulov Beknur <._.> -->
+  </body>
+</html>
